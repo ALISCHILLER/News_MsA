@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+
+
+
+    //NEWS LIST
+    <color name="primaryDark">#050608</color>
+    <color name="primary_text">#3C4147</color>
+    <color name="accent_color">#ffab91</color>
+    <color name="app_background">#3C4147</color>
+    <color name="grey_button">#202020</color>
+    <color name="bg_search_bar">#423C3C</color>
+    <color name="app_background1">#0D0E0E</color>
+    <color name="grey_text">#B7BECC</color>
+    <color name="light_grey">#DBE0E9</color>
+</resources>
