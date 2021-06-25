@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main_tab"
+    app:startDestination="@id/news_fragment">
+
+    <fragment
+        android:id="@+id/news_fragment"
+        android:name="com.msa.news_msa.view.fragment.NewsListFragment"
+        android:label="news"
+        tools:layout="@layout/news_fragment" />
+    <fragment
+        android:id="@+id/profile_fragment"
+        android:name="com.msa.news_msa.view.fragment.Profile_fragment"
+        android:label="profile"
+        tools:layout="@layout/profile_fragment" />
+    <fragment
+        android:id="@+id/newsDetail_Fragment"
+        android:name="com.msa.news_msa.view.fragment.NewsDetail_Fragment"
+        android:label="fragment_news_detail_"
+        tools:layout="@layout/fragment_news_detail_" />
+
+    <action
+        android:id="@+id/to_news"
+        app:destination="@id/news_fragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@android:anim/slide_in_left"
+        app:popExitAnim="@android:anim/slide_out_right"
+        />
+</navigation>
